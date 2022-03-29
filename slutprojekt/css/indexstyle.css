@@ -1,0 +1,24 @@
+body{
+    color:green;
+    background-color: navy;
+}
+#top-box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+h1{
+    margin: 20px 0px 20px 10px;
+}
+#menu ul{
+    margin: 20px;
+    list-style: none;
+}
+#menu li{
+    display: inline;
+    padding: 5px;
+}
+#menu a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}

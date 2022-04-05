@@ -1,6 +1,6 @@
 body{
     color:white;
-    background-color:navy;
+    background-color: #00001a;
 }
 #top-box{
     display: flex;
@@ -11,7 +11,7 @@ h1{
     margin: 20px 0px 20px 10px;
 }
 #menu ul{
-    margin: 20px;
+    margin: 25px 20px 20px 20px;
     list-style: none;
 }
 #menu li{
@@ -21,4 +21,10 @@ h1{
 #menu a:link,a:visited{
     color: white;
     text-decoration: none;
+}
+#dark_ocean{
+    width: 100%;
+    height: 300px;
+    margin: none;
+    padding: none;
 }

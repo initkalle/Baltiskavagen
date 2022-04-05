@@ -1,0 +1,32 @@
+body{
+    color:white;
+    background-color: #00001a;
+}
+#top-box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+h1{
+    margin: 20px 0px 20px 10px;
+}
+#menu ul{
+    margin: 25px 20px 20px 20px;
+    list-style: none;
+}
+#menu li{
+    display: inline;
+    padding: 5px;
+}
+#menu a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}
+#top-pics{
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#top-pics img{
+    width: 25%;
+}

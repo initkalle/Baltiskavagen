@@ -2,6 +2,7 @@ body{
     color:white;
     background-color: #00001a;
     height: 2000px;
+    line-height: 25px;
 }
 #top-box{
     display: flex;
@@ -9,7 +10,7 @@ body{
     justify-content: space-between;
 }
 h1{
-    margin: 20px 0px 20px 10px;
+    margin: 26px 0px 20px 10px;
     font-size: 35px;
 }
 #menu ul{
@@ -25,6 +26,11 @@ h1{
     color: white;
     text-decoration: none;
 }
+#menu a:hover{
+    background-color: white;
+    color: #00001a;
+    border-radius: 10px;
+}
 #top-pics{
     height: 300px;
     display: flex;
@@ -32,4 +38,13 @@ h1{
 }
 #top-pics img{
     width: 25%;
+}
+#top-text{
+    text-align: center;  
+    background-color: white;
+    color: #00001a;
+    width: 40%;
+    margin: 50px 400px 30px 545px;
+    padding: 8px 20px 10px 20px;
+    border-radius: 15px;
 }

@@ -42,29 +42,3 @@ h1 a:link{
     color: #00001a;
     border-radius: 10px;
 }
-#top-pics{
-    height: 300px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-#top-pics img{
-    width: 25%;
-}
-#top-text{
-    text-align: center;  
-    background-color: white;
-    color: #00001a;
-    width: 50%;
-    margin: 50px 400px 30px 450px;
-    padding: 8px 20px 10px 20px;
-    border-radius: 15px;
-}
-#bottom-text{
-    text-align: center;  
-    background-color: white;
-    color: #00001a;
-    width: 50%;
-    margin: 50px 400px 30px 450px;
-    padding: 8px 20px 10px 20px;
-    border-radius: 15px;
-}

@@ -69,3 +69,8 @@ h1 a:link{
     padding: 8px 20px 10px 20px;
     border-radius: 15px;
 }
+@media only screen and (max-width: 1370px) {
+    #top-text, #bottom-text{
+        margin: 50px 25% 30px 24%;
+    }
+}

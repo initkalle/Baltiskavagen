@@ -1,6 +1,6 @@
 body{
     color:white;
-    background-color: #00001a;
+    background-image:url("../img/baltic_sea.jpg");
     height: 1240px;
     line-height: 25px;
 }
@@ -12,7 +12,7 @@ body{
 h1{
     margin: 22px 0px 20px 15px;
     font-size: 37px;
-}
+}               
 h1 a:link{
     text-decoration: none;
 }
@@ -38,8 +38,8 @@ h1 a:link{
     color: white;
     text-decoration: none;
     transition: 0.3s ease;
-    border-top: 3px solid #00001a;
-    border-bottom: 3px solid #00001a;
+    border-top: 3px solid rgba(0,0,0,0);
+    border-bottom: 3px solid rgba(0,0,0,0);
     padding: 20px 0px;
 }
 #menu a:hover{
@@ -48,7 +48,13 @@ h1 a:link{
     padding: 5px 0px;
 }
 #main-con{
-background-image:url;
-color:#00001a;
-
+    display:flex;
+    flex-wrap: nowrap;
+}
+#yoldia, #ancylus, #littorina, #oster{
+    color:#00001a;
+    background-color: rgba(255,255 ,255 , alpha);
+    padding: 8px 20px 10px 20px;
+    border-radius: 15px;
+    width: 20%;
 }

@@ -84,7 +84,136 @@ h1 a:link{
 .specie-box p{
     font-size: 35px;
 }
-
-@media only screen and (max-width: 1370px) {
-
+@media screen and (max-width: 1600px) {
+    body{
+        background-color: #5F9EA0;
+    }
+    #top-box{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    h1{
+        margin: 22px 0px 20px 15px;
+        font-size: 37px;
+    }
+    h1 a:link{
+        text-decoration: none;
+    }
+    #top-box img{
+        height: 65px;
+        width: 65px;
+        margin: 2px 2px 15px 2px;
+    }
+    #logo{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #menu ul{
+        margin: 25px 20px 20px 20px;
+        list-style: none;
+        font-size: 19px;
+    }
+    #menu li{
+        display: inline;
+        padding: 5px;
+    }
+    #menu a:link,a:visited{
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+        border-top: 3px solid #5F9EA0;
+        border-bottom: 3px solid #5F9EA0;
+        padding: 20px 0px;
+    }
+    #menu a:hover{
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        padding: 5px 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: #7B68EE;
+        font-size: 20px;
+        height: 900px;
+    }
+    #top-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    h1{
+        margin: 22px 0px 20px 15px;
+        font-size: 45px;
+    }
+    h1 a:link{
+        text-decoration: none;
+    }
+    #top-box img{
+        height: 70px;
+        width: 70px;
+        margin: 2px 2px 15px 2px;
+    }
+    #logo{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: auto;
+    }
+    #menu ul{
+        margin: 2rem;
+        list-style: none;
+        font-size: 33px;
+    }
+    #menu li{
+        display: inline;
+        padding: 5px;
+    }
+    #menu a:link,a:visited{
+        color: white;
+        text-decoration: none;
+        border: none;
+    }
+    #menu a:hover{
+        background-color: white;
+        color: #7B68EE;
+    }
+    #top-pics{
+        display: none;
+    }
+    #top-text, #middle-text{
+        text-align: center;  
+        background-color: white;
+        color: #00001a;
+        width: 80%;
+        margin: 50px 10% 30px 8%;
+    }
+    #specie{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .specie-box{
+        margin: 2%;
+        color: #00001a;
+        background-color: white;
+        width: 40%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .specie-box h3{
+        background-color: red;
+        color: white;
+    }
+    .specie-box p{
+        font-size: 35px;
+    }
+    .specie-box h3{
+        font-size: 35px;
+        padding:10px;
+    }
+    .specie-box h4{
+        font-size: 30px;
+    }
 }
